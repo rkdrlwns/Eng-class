@@ -38,7 +38,7 @@ export const StepHeader: React.FC<StepHeaderProps> = ({
             onClick={() => onSelectStep(1)}
             className="font-display text-lg font-bold tracking-tight text-[#1E293B] whitespace-nowrap shrink-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#2A6F68] rounded-md px-1"
           >
-            [ELS]
+            ESL
           </button>
 
           <div className="flex items-center gap-2 text-xs sm:text-sm text-slate-600 whitespace-nowrap shrink-0">

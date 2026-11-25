@@ -244,7 +244,7 @@ function drawEndingCreditOnCanvas(ctx: CanvasRenderingContext2D, alpha: number) 
 
   ctx.fillStyle = '#FFFFFF';
   ctx.font = '700 32px "Outfit", "Plus Jakarta Sans", sans-serif';
-  ctx.fillText('[ELS]', CANVAS_W / 2, CANVAS_H / 2 - 36);
+  ctx.fillText('ESL', CANVAS_W / 2, CANVAS_H / 2 - 36);
 
   ctx.fillStyle = 'rgba(255, 255, 255, 0.92)';
   ctx.font = '600 26px "Plus Jakarta Sans", "Noto Sans KR", sans-serif';
@@ -268,7 +268,7 @@ function drawThumbnailOverlayOnCanvas(ctx: CanvasRenderingContext2D, title: stri
   // Small top badge
   ctx.fillStyle = 'rgba(255, 255, 255, 0.85)';
   ctx.font = '600 22px "Outfit", "Plus Jakarta Sans", sans-serif';
-  ctx.fillText('[ELS] · 30s MOVIE ENGLISH', CANVAS_W / 2, CANVAS_H * 0.36);
+  ctx.fillText('ESL · 30s MOVIE ENGLISH', CANVAS_W / 2, CANVAS_H * 0.36);
 
   // Wrap title cleanly across max 2 lines
   const cleanTitle = title.trim() || 'Everyday Movie English';
@@ -913,7 +913,7 @@ export const VideoCanvasPlayer: React.FC<VideoCanvasPlayerProps> = ({
       const url = URL.createObjectURL(blob);
       const a = document.createElement('a');
       a.href = url;
-      a.download = 'ELS_30s_English_Clip.webm';
+      a.download = 'ESL_30s_English_Clip.webm';
       document.body.appendChild(a);
       a.click();
       document.body.removeChild(a);

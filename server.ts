@@ -1257,7 +1257,7 @@ async function startServer() {
 
   const port = Number(process.env.PORT) || 3000;
   app.listen(port, '0.0.0.0', () => {
-    console.log(`[ELS] server running on http://0.0.0.0:${port}`);
+    console.log(`[ESL] server running on http://0.0.0.0:${port}`);
   });
 }
 

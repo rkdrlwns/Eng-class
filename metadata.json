@@ -1,5 +1,5 @@
 {
-  "name": "[ELS]",
+  "name": "ESL",
   "description": "직접 입력한 영화 영어 표현으로 30초 AI 애니메이션 영어 클립을 만드는 학습 앱",
   "requestFramePermissions": [],
   "majorCapabilities": [
